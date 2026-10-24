@@ -131,7 +131,7 @@ static constexpr double RMS_TO_PEAK_DB = 3.01029995664;
 // KEEP THIS AT ZERO FOR v1.
 // We will determine this only after the signal chain is verified
 // and external-reference tests have been completed.
-static constexpr double CALIBRATION_OFFSET_DB = 0.0;
+static constexpr double CALIBRATION_OFFSET_DB = -9.21;
 
 // ============================================================
 // SIMPLE SECOND-ORDER-SECTION IIR FILTER
